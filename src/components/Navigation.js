@@ -1,8 +1,7 @@
 import React from 'react'
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import './Navigation.css'
-import Button from 'react-bootstrap/button'
-
+import Button from 'react-bootstrap/Button'
 function Navigation() {
     return (
         <>

@@ -88,10 +88,10 @@ function Featured() {
 
     <Row>
         <Col className = 'guy'>
-        <Image  src= {Garant} alt="" />
+        <Image className = "gari"  src= {Garant} alt="" />
         </Col>
         <Col  className = 'one'>
-        <Image  src= {Three} alt="" />
+        <Image className = "milo"  src= {Three} alt="" />
         </Col>
         <Col className = "one3">
         <h1>Money Back Guaranteed</h1>
@@ -113,7 +113,7 @@ function Featured() {
 <div className = "vector"> 
 <Image src  = {Vector}></Image>
 <div className="vector-box">
-  <h1 className = "support">24/7 SUPPORT</h1>
+  <h1 className = "support"> <span className = "spa"> 24/7</span>  SUPPORT</h1>
   <p className = "para">Our Support Service is available 24 hours a day, 7 days a week to help you buy your tickets.</p>
   <Button className = "btn5">Get in touch</Button>
 </div>

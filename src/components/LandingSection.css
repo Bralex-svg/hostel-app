@@ -1,0 +1,78 @@
+
+
+
+.caro{
+    background-size: cover;
+    background-position: center ;
+}
+
+.caro , img{
+    height: 90vh !important;
+  background-color: rgba(0, 0, 0, 0.459);
+
+
+}
+
+
+
+.caro::before{
+    content:  "";
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.459);
+
+   
+}
+
+.caption{
+position: absolute;
+top: 30%;
+
+background-color: rgba(0, 0, 0, 0.705);
+height: 30vh;
+width: 50%;
+margin-left: 10%;
+}
+
+.caption h3{
+    font-size: 3rem;
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn1{
+    margin-left: -20%;
+}
+
+@media screen and (max-width: 480px) {
+    .caro , img{
+        height: 50vh !important;
+   
+    
+    
+    }
+
+    .caption h3{
+        font-size: 1.5rem;
+        margin-top: 15px;
+    
+    }
+
+    .caption{
+        position: absolute;
+        top: 20%;
+        margin-left: 1%;
+        background-color: rgba(0, 0, 0, 0.705);
+        height: 33vh;
+        width: 70%;
+        }
+}

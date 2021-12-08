@@ -112,13 +112,14 @@ function Featured() {
 
 <div className = "vector"> 
 <Image src  = {Vector}></Image>
+</div>
 <div className="vector-box">
   <h1 className = "support"> <span className = "spa"> 24/7</span>  SUPPORT</h1>
   <p className = "para">Our Support Service is available 24 hours a day, 7 days a week to help you buy your tickets.</p>
   <Button className = "btn5">Get in touch</Button>
 </div>
 
-</div>
+
 
 
     </>

@@ -39,7 +39,7 @@ margin-top: 20%;
 
 .one img{
     width: 15% !important;
-    height: 20% !important;
+    height: 15% !important;
     background-color: transparent !important;
     margin-top: 25%;
     margin-left: 70%;
@@ -51,6 +51,10 @@ margin-top: 20%;
    
 }
 
+/* .one2 h1 {
+    margin-top: 70%;
+    margin-left: 15%;
+} */
 
 
 .one1 h1{
@@ -71,7 +75,7 @@ margin-top: 20%;
 
 .btn2{
     margin-left: -27% !important;
-    margin-top: 2%;
+  
 }
 
 
@@ -81,35 +85,45 @@ margin-top: 20%;
 }
 
 
-.two img{
+.one2 img{
     background-color: transparent !important;
-    width: 20% !important;
-    height: 15% !important;
-    margin-left: -310%;
-    margin-top: 60%;
+    width: 10% !important;
+    height: 10% !important;
+  position: relative;
+  top: 32%;
+   
+
 }
 
 
-.one2{
+/* .one2{
     margin-top: 15%;
     margin-left: 5%;
-}
+} */
 
 .one2 h1{
     width: 100% !important;
     color: #181800;
     font-weight: 700;
+    margin-top: 30%;
+    margin-left: 15%;
 
 }
 
 
+.one2 p{
+    margin-left: 15%;
+    width: 65% !important;
+
+}
+
 .man img{
-    margin-left: 50%;
-    margin-top: 10%;
+    margin-left: 10%;
+    margin-top: 30%;
 }
 
 .btn3{
-    margin-left: -20%;
+ margin-left: 4%;
 }
 
 
@@ -142,17 +156,15 @@ margin-top: 20%;
     background-color: transparent !important;
     width: 100% !important;
     height: 130% !important;
- margin-top: 105rem;
- /* position: absolute;
- top: 340%; */
+    transform: translateY(60%);
 }
 
 .vector-box{
     background-color: #292901;
     width: 100%;
     height: 30vh;
-   position: absolute;
-   top: 425%;
+    margin-top: 10%;
+
 }
 
 
@@ -219,7 +231,7 @@ margin-top: 20%;
         .one1 h1{
      position: relative;
      top: 120%;
-     left: -85%;
+     left: -100%;
      width: 180% !important;
      font-size: 1.7rem;
         }
@@ -232,7 +244,7 @@ margin-top: 20%;
             position: relative;
             top: 120%;
             width: 180% !important;
-            left: -90%;
+            left: -100%;
         }
 
         .one img{
@@ -244,50 +256,53 @@ margin-top: 20%;
         }
 
         .btn2{
-            position: relative;
-            top: 120%;
-            left: -82%;
+       /* transform: translateY(1000%);
+       margin-left: -110% !important; */
+       position: relative;
+       top: 130%;
+       left: -90%;
         }
 
 
-        .one2{
-            margin-top: 100%;
-        }
-
-
-        .two img{
-            /* margin-left: -530%; */
+    
+        .one2 img{
+            width: 15% !important;
+            height: 15% !important;
             position: relative;
-            left: -210%;
-            width: 80% !important;
-            height: 20% !important;
-            margin-top: -1490%;
+            top: 160%;
         }
 
         .one2 h1{
-            margin-left: 5%;
-            width: 70% !important;
-            margin-top: 30%;
+          position: relative;
+          top: 145%;
+        width: 70% !important;
+        left: -10%;
+          
         }
 
         .one2 p{
-            width: 90% !important;
-            margin-left: 5%;
+            width: 80% !important;
+            left: -10%;
+            position: relative;
+            top: 145%;
+           
         }
 
         .man img{
             margin-left: 10%;
-            margin-top: 20%;
+            margin-top: -10%;
         }
 
         .btn3{
-            margin-left: 1%;
+            position: relative;
+            top: 145%;
+            left: -7%;
         }
 
         
 .one3 h1{
     position: relative;
-    top: 90%;
+    top: 240%;
     width: 210% !important;
     color: #181800;
     font-weight: 700;
@@ -298,14 +313,14 @@ margin-top: 20%;
 .one3 p{
     margin-left: -110%;
     position: relative;
-    top: 90%;
+    top: 240%;
     width: 185% !important;
 }
 
 .btn4{
     position: relative;
-    top: 90%;
-    margin-left: -120%;
+    top: 240%;
+    left: -100%;
 }
 
 
@@ -315,7 +330,7 @@ margin-top: 20%;
     background-color: transparent !important;
     width: 100% !important;
     height: 130% !important;
-  margin-top: 120rem;
+    transform: translateY(1220%);
 }
 
 
@@ -323,8 +338,9 @@ margin-top: 20%;
     background-color: #292901;
     width: 100%;
     height: 50vh;
-   position: absolute;
-   top:430%;
+
+    margin-top: 240%;
+
 }
 
         
@@ -360,10 +376,12 @@ margin-top: 20%;
 
 
 .gari{
-    margin-top: -10% !important;
+   position: relative !important;
+top: 130% !important;
 }
 
 .milo{
-    margin-top: -40% !important;
+   position: relative !important;
+   top: 220% !important;
 }
 }

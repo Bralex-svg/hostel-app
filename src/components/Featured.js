@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
@@ -13,9 +13,17 @@ import Garant from '../images/garantee.png'
 import Three from '../images/three.png'
 import Vector from '../images/Vector.svg'
 
+
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 import './Featured.css'
 
 function Featured() {
+
+useEffect(() =>{
+AOS.init({ duration: 2000});
+}, [])
+  
     return (
     <>
  <div className="box">
@@ -30,14 +38,22 @@ function Featured() {
   </Row>
 </Container>
 
+</div> 
 
 <Container>
 
 {/* FIRST ROW */}
 
     <Row>
-        <Col className = 'guy'>
-        <Image  src= {Guy} alt="" />
+        <Col data-aos = "fade-right" className = 'guy'>
+
+
+<Image  src= {Guy} alt="" />
+
+
+      
+
+
         </Col>
         <Col  className = 'one'>
         <Image  src= {One} alt="" />
@@ -62,17 +78,18 @@ function Featured() {
     <Row>
 
     <Col className = "one2">
+    <Image  src= {Two} alt="" />
         <h1>Easy Bookings</h1>
         <p>We know you are a student and do not have enough money to get an expensive hostel. So we have negotiated with the various landlords to reduce their prices for the students to be able to afford. </p>
         <Button className  = 'btn3' variant="success">LEARN MORE</Button>
          </Col>
 
 
-         <Col className = 'man'>
-        <Image  src= {Man} alt="" />
-        </Col>
-        <Col  className = 'two'>
-        <Image  src= {Two} alt="" />
+         <Col data-aos = "fade-left" className = 'man'>
+
+           <Image  src= {Man} alt="" />
+
+         
         </Col>
 
 
@@ -87,8 +104,11 @@ function Featured() {
 
 
     <Row>
-        <Col className = 'guy'>
-        <Image className = "gari"  src= {Garant} alt="" />
+        <Col data-aos = "fade-right" className = 'guy'>
+        
+          <Image className = "gari"  src= {Garant} alt="" />
+
+       
         </Col>
         <Col  className = 'one'>
         <Image className = "milo"  src= {Three} alt="" />
@@ -108,7 +128,6 @@ function Featured() {
 </Container>
 
 
-</div> 
 
 <div className = "vector"> 
 <Image src  = {Vector}></Image>

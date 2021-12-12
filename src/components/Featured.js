@@ -116,7 +116,7 @@ AOS.init({ duration: 2000});
         <Col className = "one3">
         <h1>Money Back Guaranteed</h1>
         <p>We know you are a student and do not have enough money to get an expensive hostel. So we have negotiated with the various landlords to reduce their prices for the students to be able to afford. </p>
-        <Button className  = 'btn4' variant="success">LEARN MORE</Button>
+        <Button className  = 'btn4'>LEARN MORE</Button>
          </Col>
 
     </Row>

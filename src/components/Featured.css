@@ -5,6 +5,10 @@
 }
 
 
+p{
+    line-height: 1.7rem;
+}
+
 
 .we{
     color: white;
@@ -70,6 +74,8 @@ margin-top: 20%;
     width: 98%;
     margin-left: -10%;
     margin-top: 3%;
+    color: rgb(68, 66, 66);
+
 }
 
 
@@ -115,6 +121,8 @@ margin-top: 20%;
 .one2 p{
     margin-left: 15%;
     width: 65% !important;
+    color: rgb(68, 66, 66);
+
 
 }
 
@@ -144,12 +152,14 @@ margin-top: 20%;
   margin-top: 6%;
     margin-left: -10%;
     width: 98%;
+    color: rgb(68, 66, 66);
+
 
 }
 
 .btn4{
-  margin-top: 7%;
-  margin-left: -27%;
+   position: relative;
+   left: -26%;
 }
 
 
@@ -210,6 +220,9 @@ margin-top: 20%;
 
 
 
+
+/* STYLES FOR MOBILE SCREENS */
+
 @media screen and (max-width: 480px) {
     .we{
         font-size: 1.1rem;
@@ -252,8 +265,10 @@ margin-top: 20%;
         .one1 p{
             position: relative;
             top: 120%;
-            width: 240% !important;
+            width: 250% !important;
             left: -140%;
+            color: rgb(68, 66, 66);
+
         }
 
         .one img{
@@ -268,7 +283,7 @@ margin-top: 20%;
        /* transform: translateY(1000%);
        margin-left: -110% !important; */
        position: relative;
-       top: 120%;
+       top: 115%;
        left: -130%;
         }
 
@@ -276,9 +291,9 @@ margin-top: 20%;
     
         .one2 img{
             width: 15% !important;
-            height: 10% !important;
-            position: absolute;
-            top: 210%;
+            height: 15% !important;
+            position: relative;
+            top: 190%;
             left: 15px;
         }
 
@@ -295,12 +310,14 @@ margin-top: 20%;
             left: -15%;
             position: relative;
             top: 165%;
-           
+            color: rgb(68, 66, 66);
+
         }
 
         .man img{
             margin-left: 10%;
             margin-top: -10%;
+        
         }
 
         .btn3{
@@ -312,7 +329,7 @@ margin-top: 20%;
         
 .one3 h1{
     position: relative;
-    top: 190%;
+    top: 210%;
     width: 210% !important;
     color: #181800;
     font-weight: 700;
@@ -323,16 +340,17 @@ margin-top: 20%;
 .one3 p{
     margin-left: -170%;
     position: relative;
-    top: 192%;
+    top: 210%;
     width: 250% !important;
+    color: rgb(68, 66, 66);
+
 }
 
-.btn4{
-    position: relative;
-    top: 190%;
-    left: -150%;
-}
-
+ .btn4{
+  transform: translateY(1780%);
+  margin-left: -145%;
+  
+} 
 
 
 
@@ -387,11 +405,11 @@ margin-top: 20%;
 
 .gari{
    position: relative !important;
-top: 80% !important;
+top: 110% !important;
 }
 
 .milo{
    position: relative !important;
-   top: 140% !important;
+   top: 165% !important;
 }
 }

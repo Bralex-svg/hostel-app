@@ -45,7 +45,7 @@ AOS.init({ duration: 2000});
 {/* FIRST ROW */}
 
     <Row>
-        <Col data-aos = "fade-right" className = 'guy'>
+        <Col data-aos = "fade-up" className = 'guy'>
 
 
 <Image  src= {Guy} alt="" />
@@ -85,7 +85,7 @@ AOS.init({ duration: 2000});
          </Col>
 
 
-         <Col data-aos = "fade-left" className = 'man'>
+         <Col data-aos = "fade-up" className = 'man'>
 
            <Image  src= {Man} alt="" />
 
@@ -104,7 +104,7 @@ AOS.init({ duration: 2000});
 
 
     <Row>
-        <Col data-aos = "fade-right" className = 'guy'>
+        <Col data-aos = "fade-up" className = 'guy'>
         
           <Image className = "gari"  src= {Garant} alt="" />
 

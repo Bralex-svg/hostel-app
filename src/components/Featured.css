@@ -67,7 +67,7 @@ margin-top: 20%;
 }
 
 .one1 p{
-    width: 90%;
+    width: 98%;
     margin-left: -10%;
     margin-top: 3%;
 }
@@ -75,7 +75,7 @@ margin-top: 20%;
 
 .btn2{
     margin-left: -27% !important;
-  
+    
 }
 
 
@@ -87,10 +87,11 @@ margin-top: 20%;
 
 .one2 img{
     background-color: transparent !important;
-    width: 10% !important;
-    height: 10% !important;
-  position: relative;
-  top: 32%;
+    width: 5% !important;
+    height: 12% !important;
+  position: absolute;
+  top: 220%;
+  left: 90px;
    
 
 }
@@ -142,7 +143,7 @@ margin-top: 20%;
 .one3 p{
   margin-top: 6%;
     margin-left: -10%;
-    width: 90%;
+    width: 98%;
 
 }
 
@@ -184,6 +185,10 @@ margin-top: 20%;
     margin-left: 35%;
     transform: translateY(-80%);
 
+}
+
+.milo{
+    margin-top: 100px !important;
 }
 
 .btn5{
@@ -228,10 +233,14 @@ margin-top: 20%;
             margin-left: 10%;
         }
 
+       .guy img{
+           margin-top: 30px;
+       }
+         
         .one1 h1{
      position: relative;
      top: 120%;
-     left: -100%;
+     left: -140%;
      width: 180% !important;
      font-size: 1.7rem;
         }
@@ -243,8 +252,8 @@ margin-top: 20%;
         .one1 p{
             position: relative;
             top: 120%;
-            width: 180% !important;
-            left: -100%;
+            width: 240% !important;
+            left: -140%;
         }
 
         .one img{
@@ -259,32 +268,33 @@ margin-top: 20%;
        /* transform: translateY(1000%);
        margin-left: -110% !important; */
        position: relative;
-       top: 130%;
-       left: -90%;
+       top: 120%;
+       left: -130%;
         }
 
 
     
         .one2 img{
             width: 15% !important;
-            height: 15% !important;
-            position: relative;
-            top: 160%;
+            height: 10% !important;
+            position: absolute;
+            top: 210%;
+            left: 15px;
         }
 
         .one2 h1{
           position: relative;
-          top: 145%;
+          top: 165%;
         width: 70% !important;
-        left: -10%;
+        left: -15%;
           
         }
 
         .one2 p{
-            width: 80% !important;
-            left: -10%;
+            width: 100% !important;
+            left: -15%;
             position: relative;
-            top: 145%;
+            top: 165%;
            
         }
 
@@ -295,32 +305,32 @@ margin-top: 20%;
 
         .btn3{
             position: relative;
-            top: 145%;
+            top: 165%;
             left: -7%;
         }
 
         
 .one3 h1{
     position: relative;
-    top: 240%;
+    top: 190%;
     width: 210% !important;
     color: #181800;
     font-weight: 700;
-    left: -100%;
+    left: -160%;
     font-size: 1.5rem;
 }
 
 .one3 p{
-    margin-left: -110%;
+    margin-left: -170%;
     position: relative;
-    top: 240%;
-    width: 185% !important;
+    top: 192%;
+    width: 250% !important;
 }
 
 .btn4{
     position: relative;
-    top: 240%;
-    left: -100%;
+    top: 190%;
+    left: -150%;
 }
 
 
@@ -330,7 +340,7 @@ margin-top: 20%;
     background-color: transparent !important;
     width: 100% !important;
     height: 130% !important;
-    transform: translateY(1220%);
+    transform: translateY(860%);
 }
 
 
@@ -339,7 +349,7 @@ margin-top: 20%;
     width: 100%;
     height: 50vh;
 
-    margin-top: 240%;
+    margin-top: 170%;
 
 }
 
@@ -377,11 +387,11 @@ margin-top: 20%;
 
 .gari{
    position: relative !important;
-top: 130% !important;
+top: 80% !important;
 }
 
 .milo{
    position: relative !important;
-   top: 220% !important;
+   top: 140% !important;
 }
 }
